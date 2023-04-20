@@ -6,8 +6,6 @@ chars_ascii = "$@%&#oxcv+~;:-,`'.  "
 chars_uni = "\u2588\u2593\u2592\u2591. "
 
 ############# FUNCTION DEFS ###########################################
-# def update_selection(option, selection):
-#     selection.value = option.value
 
 #checks a value in a selection and compares to some string value and returns based on comparison or returns a default
 def check_val(selection, string_val, return_val, default_val):
